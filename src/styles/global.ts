@@ -17,10 +17,9 @@ export default createGlobalStyle`
     font: 16px Roboto, sans-serif;
   }
 
-  #root {
-    max-width: 1330px;
+  #root{
+    align-items: center;
     margin: 0 auto;
-    padding: 30px 0;
   }
 
   button {

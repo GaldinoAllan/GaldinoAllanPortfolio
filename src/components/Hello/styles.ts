@@ -1,23 +1,30 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin: 0 130px;
-  font-weight: bold;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 960px;
-  padding-bottom: 100px;
+  justify-content: center;
+  margin: 90px;
 
-  strong {
-    color: #fff;
-    font-size: 80px;
-    padding: 10px 0;
-  }
+  > div {
+    justify-content: center;
+    margin: 110px;
+    display: flex;
+    align-items: center;
 
-  p {
-    color: #707070;
-    font-size: 30px;
-    max-width: 300px;
+    > div {
+      padding-left: 200px;
+
+      strong {
+        color: #fff;
+        font-size: 80px;
+        padding: 10px 0;
+      }
+
+      p {
+        font-weight: bold;
+        color: #707070;
+        font-size: 30px;
+        max-width: 300px;
+      }
+    }
   }
 `;
