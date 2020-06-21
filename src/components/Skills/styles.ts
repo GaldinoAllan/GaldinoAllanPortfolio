@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  max-width: 1300px;
+  /* max-width: 1300px; */
   place-content: center;
+  align-items: center;
   margin: 50px;
-  width: 100%;
 `;
 
 export const Title = styled.h1`
@@ -14,7 +14,6 @@ export const Title = styled.h1`
 `;
 
 export const Techs = styled.div`
-  max-width: 1300px;
   align-content: center;
   justify-content: space-between;
   text-align: center;
@@ -27,10 +26,6 @@ export const Techs = styled.div`
 
     &:hover {
       transform: scale(1.5);
-
-      /* & + a {
-        transform: scale(1.2);
-      } */
     }
 
     p {

@@ -3,9 +3,9 @@ import Header from '../../components/Header';
 import Hello from '../../components/Hello';
 import AboutMe from '../../components/AboutMe';
 import Skills from '../../components/Skills';
-import LatestProjs from '../../components/LatestProjs';
-import WorkXp from '../../components/WorkXp';
-import Formation from '../../components/Formation';
+// import LatestProjs from '../../components/LatestProjs';
+// import WorkXp from '../../components/WorkXp';
+// import Formation from '../../components/Formation';
 import ContactFooter from '../../components/Contact';
 
 const Portfolio: React.FC = () => {
@@ -15,9 +15,9 @@ const Portfolio: React.FC = () => {
       <Hello />
       <AboutMe />
       <Skills />
-      <LatestProjs />
+      {/* <LatestProjs />
       <WorkXp />
-      <Formation />
+      <Formation /> */}
       <ContactFooter />
     </>
   );
