@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  /* max-width: 1300px; */
   place-content: center;
   align-items: center;
   margin: 50px;

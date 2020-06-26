@@ -5,7 +5,7 @@ import AboutMe from '../../components/AboutMe';
 import Skills from '../../components/Skills';
 // import LatestProjs from '../../components/LatestProjs';
 // import WorkXp from '../../components/WorkXp';
-import Formation from '../../components/Formation';
+// import Formation from '../../components/Formation';
 import ContactFooter from '../../components/Contact';
 
 const Portfolio: React.FC = () => {
@@ -15,9 +15,9 @@ const Portfolio: React.FC = () => {
       <Hello />
       <AboutMe />
       <Skills />
-      {/* <LatestProjs /> */}
-      {/* <WorkXp /> */}
-      <Formation />
+      {/* <LatestProjs />
+      <WorkXp />
+      <Formation /> */}
       <ContactFooter />
     </>
   );
