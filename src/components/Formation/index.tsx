@@ -19,7 +19,7 @@ const Formation: React.FC = () => (
       </Formations>
       <Formations>
         <div>
-          <strong>May 2018 - now</strong>
+          <strong>May 2020 - now</strong>
           <h1>GoStack Bootcamp</h1>
           <p>Rocketseat</p>
           <img
