@@ -4,7 +4,7 @@ import Hello from '../../components/Hello';
 import AboutMe from '../../components/AboutMe';
 import Skills from '../../components/Skills';
 // import LatestProjs from '../../components/LatestProjs';
-// import WorkXp from '../../components/WorkXp';
+import WorkXp from '../../components/WorkXp';
 import Formation from '../../components/Formation';
 import ContactFooter from '../../components/Contact';
 
@@ -16,7 +16,7 @@ const Portfolio: React.FC = () => {
       <AboutMe />
       <Skills />
       {/* <LatestProjs /> */}
-      {/* <WorkXp /> */}
+      <WorkXp />
       <Formation />
       <ContactFooter />
     </>
