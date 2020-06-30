@@ -16,33 +16,25 @@ export const Title = styled.h1`
 export const Content = styled.div``;
 
 export const Experience = styled.div`
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin: 50px;
   color: #fff;
   display: flex;
+  color: #707070;
 
-  > div {
-    margin: 10px;
-
-    h1 {
-      width: 270px;
-    }
-
-    strong {
-      color: #707070;
-    }
-
-    h4 {
-      color: #707070;
-    }
-
-    p {
-      max-width: 450px;
-      margin: 24px 24px 24px 0;
-      font-size: 22px;
-    }
+  h1 {
+    color: #fff;
   }
+
+  p {
+    max-width: 450px;
+    margin: 24px 24px 24px 0;
+    font-size: 22px;
+    color: #fff;
+  }
+
   img {
     width: 576px;
   }

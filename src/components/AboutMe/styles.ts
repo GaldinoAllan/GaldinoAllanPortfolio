@@ -30,6 +30,48 @@ export const Container = styled.div`
 
   align-items: left;
 
+  > div {
+    display: flex;
+    align-items: center;
+
+    a {
+      width: 100px;
+      height: 60px;
+      margin-left: 20px;
+      text-decoration: none;
+      border: 2px solid #fff;
+      border-radius: 25px;
+      color: #fff;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      transition: transform 0.2s;
+
+      p {
+        font-size: 16px;
+        margin-left: 5px;
+      }
+
+      svg {
+        margin: 5px;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+        background: #fff;
+        width: 100px;
+        height: 60px;
+        color: #000;
+        font-size: 32px;
+        justify-content: center;
+
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+
   p {
     margin: 20px 0;
     color: #fff;

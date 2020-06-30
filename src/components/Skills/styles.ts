@@ -18,6 +18,7 @@ export const Techs = styled.div`
   text-align: center;
   padding-top: 10px;
   display: flex;
+  flex-wrap: wrap;
 
   a {
     text-decoration: none;

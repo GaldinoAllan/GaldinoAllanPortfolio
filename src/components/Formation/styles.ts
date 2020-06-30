@@ -4,7 +4,6 @@ export const Container = styled.div`
   max-width: 1300px;
   place-content: center;
   margin: 50px 50px 10px 50px;
-  width: 100%;
 `;
 
 export const Title = styled.h1`
@@ -16,6 +15,7 @@ export const Title = styled.h1`
 export const Content = styled.div`
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 `;
 
 export const Formations = styled.div`

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiDownload } from 'react-icons/fi';
 import { Container, Title, Today, Box, Background, Content } from './styles';
 
 const Hello: React.FC = () => {
@@ -38,7 +39,16 @@ const Hello: React.FC = () => {
       <Box id="aboutme">
         <Container>
           <Today>{`${weekDay[dayWeek]} ${day} ${months[month]}`}</Today>
-          <Title>About Me</Title>
+          <div>
+            <Title>About Me</Title>
+            <a
+              href="https://drive.google.com/file/d/1f29ZTZj_upX7e2czULx9D1OeXxHbhG5N/view?usp=sharing"
+              target="blank"
+            >
+              <p>Resume</p>
+              <FiDownload />
+            </a>
+          </div>
           <p>
             I’m Allan. I live in Campinas, State of São Paulo, Brazil. While
             growing up I always had a connection with tech, so I decided to do
