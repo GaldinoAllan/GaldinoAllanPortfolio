@@ -42,7 +42,7 @@ const Hello: React.FC = () => {
           <div>
             <Title>About Me</Title>
             <a
-              href="https://drive.google.com/file/d/1f29ZTZj_upX7e2czULx9D1OeXxHbhG5N/view?usp=sharing"
+              href="https://drive.google.com/file/d/1q4JDkyzPnLWRC-j8ydqAaKTLwc5N3JX_/view?usp=sharing"
               target="blank"
             >
               <p>Resume</p>
