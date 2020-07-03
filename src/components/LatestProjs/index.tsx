@@ -23,9 +23,18 @@ const LatestProjs: React.FC = () => {
   const [repositories, setRepositories] = useState<Repository[]>([]);
 
   useEffect(() => {
-    api.get('/repos').then(response => {
-      setRepositories(response.data);
-    });
+    api
+      .get('/repos', {
+        params: {
+          sort: 'pushed',
+        },
+      })
+      .then(response => {
+        const repos = response.data.filter(
+          (repository: Repository) => repository.name !== 'galdinoallan',
+        );
+        setRepositories(repos);
+      });
   }, []);
 
   return (
