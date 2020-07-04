@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Box = styled.div`
-  background-color: #393939;
+  justify-content: center;
+  background: #1a1a1a;
   padding-top: 20px;
-  width: 100%;
   margin: 0 auto;
 `;

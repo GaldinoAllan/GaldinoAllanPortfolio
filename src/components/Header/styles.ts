@@ -5,6 +5,9 @@ interface ContainerProps {
 }
 
 export const Container = styled.div<ContainerProps>`
+  max-width: 1400px;
+  margin: 0 auto;
+
   align-items: center;
   padding: ${({ size }) => (size === 'small' ? '0 20px 150px ' : '0 20px')};
 

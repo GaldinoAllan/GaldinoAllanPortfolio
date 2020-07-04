@@ -1,10 +1,10 @@
 import React from 'react';
-import { Container, Title, Experience, Content } from './styles';
+import { Container, Title, Experience, Content, Box } from './styles';
 
 import artLogo from '../../assets/artLogo.svg';
 
 const WorkXp: React.FC = () => (
-  <>
+  <Box>
     <Container>
       <Title id="workxp">Work Experience</Title>
     </Container>
@@ -23,7 +23,7 @@ const WorkXp: React.FC = () => (
         <img src={artLogo} alt="Logo ArtIT" />
       </Experience>
     </Content>
-  </>
+  </Box>
 );
 
 export default WorkXp;

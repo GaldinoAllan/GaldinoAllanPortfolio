@@ -9,6 +9,7 @@ import {
   RepoHeader,
   RepoName,
   Description,
+  Box,
 } from './styles';
 import api from '../../services/api';
 
@@ -38,7 +39,7 @@ const LatestProjs: React.FC = () => {
   }, []);
 
   return (
-    <>
+    <Box>
       <Container>
         <Title id="latestprojs">Latest Projects</Title>
         <Subtitle>
@@ -62,7 +63,7 @@ const LatestProjs: React.FC = () => {
             </Repository>
           ))}
       </Repositories>
-    </>
+    </Box>
   );
 };
 

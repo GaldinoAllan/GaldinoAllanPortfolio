@@ -43,6 +43,10 @@ export const FooterHeader = styled.div`
 `;
 
 export const FooterInfos = styled.div`
+  padding-top: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+
   padding-top: 50px;
   display: flex;
   justify-content: space-between;

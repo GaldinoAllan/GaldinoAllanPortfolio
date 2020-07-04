@@ -1,10 +1,10 @@
 import React from 'react';
-import { Container, Title, Formations, Content } from './styles';
+import { Container, Title, Formations, Content, Box } from './styles';
 
 import ifspLogo from '../../assets/ifspLogo.png';
 
 const Formation: React.FC = () => (
-  <>
+  <Box>
     <Container>
       <Title id="formation">Formation</Title>
     </Container>
@@ -29,7 +29,7 @@ const Formation: React.FC = () => (
         </div>
       </Formations>
     </Content>
-  </>
+  </Box>
 );
 
 export default Formation;

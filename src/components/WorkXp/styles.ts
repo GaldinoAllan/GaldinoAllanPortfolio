@@ -1,5 +1,11 @@
 import styled from 'styled-components';
 
+export const Box = styled.div`
+  padding-top: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+`;
+
 export const Container = styled.div`
   max-width: 1300px;
   place-content: center;

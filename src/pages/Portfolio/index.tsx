@@ -7,10 +7,11 @@ import LatestProjs from '../../components/LatestProjs';
 import WorkXp from '../../components/WorkXp';
 import Formation from '../../components/Formation';
 import ContactFooter from '../../components/Contact';
+import { Box } from './styles';
 
 const Portfolio: React.FC = () => {
   return (
-    <>
+    <Box>
       <Header />
       <Hello />
       <AboutMe />
@@ -19,7 +20,7 @@ const Portfolio: React.FC = () => {
       <WorkXp />
       <Formation />
       <ContactFooter />
-    </>
+    </Box>
   );
 };
 

@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 import AboutMe from '../../assets/aboutMe.svg';
 
+export const Content = styled.div`
+  background: #393939;
+  position: relative;
+`;
+
 export const Box = styled.div`
   justify-content: center;
   display: flex;
@@ -26,7 +31,7 @@ export const Container = styled.div`
   place-content: center;
 
   width: 100%;
-  max-width: 1000px;
+  max-width: 900px;
 
   align-items: left;
 
@@ -84,8 +89,4 @@ export const Background = styled.div`
   flex: 1;
   background: url(${AboutMe}) no-repeat center;
   background-size: cover;
-`;
-
-export const Content = styled.div`
-  background-color: #393939;
 `;

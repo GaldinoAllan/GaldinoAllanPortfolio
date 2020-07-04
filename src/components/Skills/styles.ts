@@ -1,9 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  padding-top: 50px;
+  max-width: 1300px;
+  margin: 0 auto;
+
   place-content: center;
-  align-items: center;
-  margin: 50px;
 `;
 
 export const Title = styled.h1`
@@ -14,7 +16,7 @@ export const Title = styled.h1`
 
 export const Techs = styled.div`
   align-content: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   text-align: center;
   padding-top: 10px;
   display: flex;

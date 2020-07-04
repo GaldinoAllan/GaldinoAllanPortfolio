@@ -1,7 +1,12 @@
 import styled from 'styled-components';
 
+export const Box = styled.div`
+  padding-top: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+`;
+
 export const Container = styled.div`
-  /* max-width: 1300px; */
   place-content: center;
   margin: 50px;
   flex-wrap: wrap;
@@ -23,8 +28,7 @@ export const Subtitle = styled.p`
 export const Repositories = styled.div`
   display: flex;
   margin: 8px;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 `;
 
@@ -34,7 +38,7 @@ export const Repository = styled.a`
   border: 2px solid #707070;
   background: #707070;
   border-radius: 25px;
-  margin: 24px;
+  margin: 16px;
   width: 320px;
   transition: transform 0.2s;
 
