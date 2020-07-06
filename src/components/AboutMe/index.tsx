@@ -43,7 +43,8 @@ const Hello: React.FC = () => {
             <Title>About Me</Title>
             <a
               href="https://drive.google.com/file/d/1q4JDkyzPnLWRC-j8ydqAaKTLwc5N3JX_/view?usp=sharing"
-              target="blank"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <p>Resume</p>
               <FiDownload />

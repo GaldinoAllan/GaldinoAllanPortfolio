@@ -14,6 +14,7 @@ import {
 import api from '../../services/api';
 
 interface Repository {
+  id: string;
   name: string;
   description: string;
   language: string;
@@ -50,7 +51,12 @@ const LatestProjs: React.FC = () => {
       <Repositories>
         {repositories &&
           repositories.map(repository => (
-            <Repository href={repository.html_url}>
+            <Repository
+              key={repository.id}
+              href={repository.html_url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <RepoHeader>
                 <RepoName>{repository.name}</RepoName>
                 <RepoLanguage>{repository.language}</RepoLanguage>

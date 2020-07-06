@@ -11,15 +11,19 @@ const Formation: React.FC = () => (
     <Content>
       <Formations>
         <div>
-          <strong>January 2018 - now</strong>
+          <strong>Feb 2018 - now</strong>
           <h1>System Analysis and Development</h1>
           <p>IFSP - Instituto Federal de São Paulo</p>
           <img src={ifspLogo} alt="Logo IFSP" />
         </div>
       </Formations>
-      <Formations>
+      <Formations
+        href="https://drive.google.com/file/d/16A-LpuQqq_VmKPDQcgDnS418s6D1lYlk/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <div>
-          <strong>May 2020 - now</strong>
+          <strong>Feb 2020 - Jul 2020</strong>
           <h1>GoStack Bootcamp</h1>
           <p>Rocketseat</p>
           <img

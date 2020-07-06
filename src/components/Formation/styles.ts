@@ -24,7 +24,8 @@ export const Content = styled.div`
   flex-wrap: wrap;
 `;
 
-export const Formations = styled.div`
+export const Formations = styled.a`
+  text-decoration: none;
   max-width: 400px;
   border: 1px solid #707070;
   border-radius: 10px;
