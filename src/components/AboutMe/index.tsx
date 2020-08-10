@@ -42,7 +42,7 @@ const Hello: React.FC = () => {
           <div>
             <Title>About Me</Title>
             <a
-              href="https://drive.google.com/file/d/1q4JDkyzPnLWRC-j8ydqAaKTLwc5N3JX_/view?usp=sharing"
+              href={process.env.REACT_APP_RESUME_LINK}
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -18,7 +18,7 @@ const Formation: React.FC = () => (
         </div>
       </Formations>
       <Formations
-        href="https://drive.google.com/file/d/16A-LpuQqq_VmKPDQcgDnS418s6D1lYlk/view?usp=sharing"
+        href={process.env.REACT_APP_GOSTACK_LINK}
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -27,7 +27,7 @@ const Formation: React.FC = () => (
           <h1>GoStack Bootcamp</h1>
           <p>Rocketseat</p>
           <img
-            src="https://rocketseat.com.br/static/images/logo-rocketseat.svg"
+            src={process.env.REACT_APP_ROCKETSEAT_LOGO}
             alt="Logo Rocketseat"
           />
         </div>
