@@ -33,7 +33,7 @@ const LatestProjs: React.FC = () => {
       })
       .then(response => {
         const repos = response.data.filter(
-          (repository: Repository) => repository.name !== 'galdinoallan',
+          (repository: Repository) => repository.name !== 'GaldinoAllan',
         );
         setRepositories(repos);
       });
